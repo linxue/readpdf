@@ -1,0 +1,24 @@
+{
+  "name": "linxue/readpdf",
+  "type": "library",
+  "description": "php pdf 类:读取pdf文件 , 支持中文内容写入 , 输出或导出为pdf文件",
+  "keywords": [ "readpdf" ],
+  "homepage": "https://github.com/linxue/readpdf",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Linxue",
+      "email": "linxue@sina.com",
+      "homepage": "http://linxue.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ReadPdf\\": "/src"
+    }
+  }
+}
